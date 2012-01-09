@@ -1,0 +1,58 @@
+sign up:admin side-x
+
+font color:Black-x
+
+title of the web pages-x
+
+if sign in redirect to main page-x
+
+pagination - x
+
+code-x
+
+save button border-x
+
+admin cookies-x
+
+Steps to Reproduce: 
+If I choose to sort it by Call ID and i press the SEARCH button, the radio box selection was reset to Date.-x
+
+The downloaded recording filename must contain the phone number, call ID and call date e.g "6306655201_1001007453_20110323.wav"-x
+
+The answers in Sort By must be retain when I press the search button.-x
+
+
+The play recording link must open in new tab to retain the result.-x
+
+
+internet explorer compatibility-x
+
+
+pagination of view user affect set permission and delete
+
+add search by agent name
+.agent id
+.start date
+.end date
+
+player and save url seciruty
+
+skip player buffering
+
+
+
+
+It seems that all the downloaded recording were corrupted. I cant play it on my Media Player.
+
+
+
+
+
+
+
+
+servers:
+
+\\haven-pc\c$\
+
+\\spas12\c$\

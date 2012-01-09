@@ -1,0 +1,11 @@
+aa.bb.cc
+
+aa=0 develoment 
+aa=1 and above public deployment
+
+bb=development or release
+
+cc=bugs
+
+development=odd number
+release=even number

@@ -1,0 +1,7 @@
+for I3_IC
+select ANI as Phone_Number,RecordedCallIDKey as CallId,RecordingFileSize as File_Size,RecordingTitle,RecordingDate as InitiatedDate,RecordingFileName from RecordingCall inner join RecordingData on RecordingCall.RECORDINGID=RecordingData.RECORDINGID where ANI='7635533344' 
+
+for db_recordings
+select ANI as Phone_Number,RecordedCallIDKey as CallId,RecordingFileSize as File_Size,RecordingTitle as Recording_Title,RecordingDate as InitiatedDate,RecordingFileName as FILE_NAME from rec_recordingcall inner join rec_recordingdata  on rec_recordingcall.RECORDINGID=rec_recordingdata.RECORDINGID 
+
+select ANI as Phone_Number,RecordedCallIDKey as CallId,RecordingFileSize as File_Size,RecordingTitle as Recording_Title,RecordingDate as InitiatedDate,RecordingFileName as FILE_NAME from rec_recordingcall inner join rec_recordingdata  on rec_recordingcall.RECORDINGID=rec_recordingdata.RECORDINGID where ANI in ('8085724895','1132782589')
